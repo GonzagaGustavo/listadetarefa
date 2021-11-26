@@ -1,0 +1,16 @@
+#input{
+    background-color: black;
+    color: white;
+}
+body{
+    background-image: url(https://1.bp.blogspot.com/-lUKa4FNac1M/ThtfJcOwrQI/AAAAAAAACf0/Vg8_Bd8Kv2Q/s1600/lago-com-agua-cristalina-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg);
+    display: grid;
+    place-items: center;
+}
+button{
+    margin: 3px;
+    background-color: green;
+}
+#lista{
+    color: rgb(255, 0, 0);
+}
