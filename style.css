@@ -1,6 +1,9 @@
 #input{
     background-color: black;
     color: white;
+    border: black;
+    border-radius: 4px;
+    margin: 3px;
 }
 body{
     background-image: url(https://1.bp.blogspot.com/-lUKa4FNac1M/ThtfJcOwrQI/AAAAAAAACf0/Vg8_Bd8Kv2Q/s1600/lago-com-agua-cristalina-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg);
@@ -10,7 +13,16 @@ body{
 button{
     margin: 3px;
     background-color: green;
+    border: solid green;
+    border-radius: 10px;
+    padding: 4px;
 }
 #lista{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+legend {
+    font-size: 20px;
+}
+label {
+    font-size: 30px;
 }
