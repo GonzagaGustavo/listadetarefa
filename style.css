@@ -26,3 +26,7 @@ legend {
 label {
     font-size: 30px;
 }
+.checked {
+    text-decoration: line-through;
+    color: black;
+}
