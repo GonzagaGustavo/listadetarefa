@@ -10,14 +10,9 @@ function add() {
 }
 function render() {
     lista.innerHTML = null
-    tarefa.forEach(i => {
+    tarefa.forEach(function (i) {
         const li  = document.createElement("li")
         li.innerText = i
         lista.appendChild(li)
     })
 }
-document.querySelector("ul").addEventListener('click', 
-(e) =>{
-    if(e.target.tagName === 'LI')
-    e.target.classList.toggle('checked')
-})

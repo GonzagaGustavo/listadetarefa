@@ -1,5 +1,8 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 #input{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.747);
     color: white;
     border: black;
     border-radius: 4px;
@@ -29,4 +32,14 @@ label {
 .checked {
     text-decoration: line-through;
     color: black;
+}
+div{
+    padding: 13px;
+    background-color: rgba(0, 128, 0, 0.521);
+}
+#lista {
+    list-style-type: symbols();
+    padding:4vh;
+    height: 50vh;
+    overflow-y: auto;
 }
