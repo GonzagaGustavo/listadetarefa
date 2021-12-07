@@ -13,7 +13,7 @@ body{
     display: grid;
     place-items: center;
 }
-button{
+#addButton {
     margin: 3px;
     background-color: green;
     border: solid green;
@@ -42,4 +42,11 @@ div{
     padding:4vh;
     height: 50vh;
     overflow-y: auto;
+}
+button {
+    background-color: rgba(0, 0, 255, 0.5);
+    border: rgba(0, 0, 255, 0.5) 1px solid;
+    padding: 2px;
+    margin: 3px;
+    font-size: 2vh;
 }
